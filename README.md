@@ -1,11 +1,12 @@
-# Air-Clothing-MA
+# AIR-Clothing-MA
+This is a part of ETRI AIR project. The AIR-Clothing-MA is a kind of mutli-attributes classifier for Clothings and their attributes.
 
-## Setting 
--   Python = 3.6.1     
--   pytorch = 0.41
+## Dependencies
+-   python = 3.6.1     
+-   pytorch = 0.4.1
 
 -   RoiAlign 
-    1. Download and istall RoiAlign module for pytorch 0.41 from [here](https://github.com/longcw/RoIAlign.pytorch/tree/pytorch_0.4)
+    1. Download and install RoiAlign module for pytorch 0.41 from [here](https://github.com/longcw/RoIAlign.pytorch/tree/pytorch_0.4)
 
 
 
