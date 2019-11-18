@@ -379,8 +379,7 @@ def main(args):
         
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()  
-    parser.add_argument('--image', type=str, required=False, default='/home/goodman/air/dataset/2017_2018/images/1125.jpg', help='input image for generating caption')
-    parser.add_argument('--encoder_path', type=str, default='m_05_2/encoder-12-1170.ckpt', help='path for trained encoder')
+    parser.add_argument('--encoder_path', type=str, default='encoder-12-1170.ckpt', help='path for trained encoder')
    
     # Encoder - Yolo-v3 parameters
     parser.add_argument('--confidence', type=float, default = 0.5, help = 'Object Confidence to filter predictions')
