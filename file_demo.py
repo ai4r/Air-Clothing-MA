@@ -9,7 +9,7 @@ import os.path as osp
 import glob
 from torchvision import transforms 
 from build_clothing_vocab import Vocabulary
-from model7_1 import EncoderClothing, DecoderClothing
+from model import EncoderClothing, DecoderClothing
 from darknet import Darknet
 from PIL import Image
 from util import *
@@ -71,12 +71,8 @@ def main(args):
     encoder = EncoderClothing(args.embed_size, device, args.roi_size, attribute_size)
 
     # Prepare an image   
-    #image, orig_img, im_dim = load_image2(args.image, transform)
-    #images = "/home/goodman/air/pytorch-yolo-v3/imgs/test2"
-    images = "test2"
-    #images = "/home/goodman/air/dataset/2017_2018/images"
-    #images   = "/home/goodman/air/dataset/temp"
-    #images   = "/home/goodman/air/dataset/clothing/test"
+    images = "test"
+
     
     try:
         list_dir = os.listdir(images)
