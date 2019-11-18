@@ -11,7 +11,7 @@ import os
 import time
 from torchvision import transforms 
 from build_clothing_vocab import Vocabulary
-from model7_1 import EncoderClothing, DecoderClothing
+from model import EncoderClothing, DecoderClothing
 from darknet import Darknet
 from PIL import Image
 from util import *
@@ -284,9 +284,8 @@ def main(args):
             detections = write_results(detections, args.confidence, num_classes, device, nms=True, nms_conf=args.nms_thresh)
             
             #### detections = ros_message_rois()
-            #### ros_rois --> [0,0, x1, y1, x2, y2] 형태의 float 배열
+            #### ros_rois --> [0,0, x1, y1, x2, y2] 
 
-            # 다음 절차에서 사람이기에는 너무 작은 것들은 사전에 전처리로 솎아내는 작업은 한다.
             # original image dimension --> im_dim
             
             #view_image(detections)
@@ -317,7 +316,6 @@ def main(args):
                     detections = detections[small_object_ratio > 0.05]
                     im_dim = im_dim[small_object_ratio > 0.05]
                     
-                    # 여기에서는 최종후보 사람 ROI들의 좌표정보(이미지 기준) 를 yolo 특징벡터의 차원에서의 좌표정보로 변환하는 작업을 한다.
                     if detections.size(0) > 0:
                         feature = yolov3.get_feature()
                         feature = feature.repeat(detections.size(0), 1, 1, 1)
