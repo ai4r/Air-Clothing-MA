@@ -201,20 +201,8 @@ def main(args):
     
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()  
-    parser.add_argument('--image', type=str, required=False, default='/home/goodman/air/dataset/2017_2018/images/1125.jpg', help='input image for generating caption')
-#    parser.add_argument('--image', type=str, required=False, default='/home/goodman/air/pytorch-yolo-v3/imgs/test/test.jpg', help='input image for generating caption')
-    #parser.add_argument('--encoder_path', type=str, default='models6/encoder-5-9000.ckpt', help='path for trained encoder')
-    #parser.add_argument('--decoder_path', type=str, default='models6/decoder-5-9000.ckpt', help='path for trained decoder')
-    #parser.add_argument('--encoder_path', type=str, default='model_v1/encoder-2-1000.ckpt', help='path for trained encoder')
-    #parser.add_argument('--decoder_path', type=str, default='model_v1/decoder-2-1000.ckpt', help='path for trained decoder')
-    #parser.add_argument('--encoder_path', type=str, default='m_05/encoder-3-1170.ckpt', help='path for trained encoder')
-    #parser.add_argument('--encoder_path', type=str, default='m_05_3/encoder-14-1170.ckpt', help='path for trained encoder')
-    #parser.add_argument('--encoder_path', type=str, default='m_05_4/encoder-11-696.ckpt', help='path for trained encoder')
-    parser.add_argument('--encoder_path', type=str, default='m_05_2/encoder-12-1170.ckpt', help='path for trained encoder')
-    #parser.add_argument('--decoder1_path', type=str, default='model_04/decoder_t-2-552.ckpt', help='path for trained decoder')
-    #parser.add_argument('--encoder1_path', type=str, default='model_upper_pants_64_26_3/encoder-15-553.ckpt', help='path for trained encoder')
-    #parser.add_argument('--decoder1_path', type=str, default='model_upper_pants_64_26_3/decoder-15-553.ckpt', help='path for trained decoder')
     
+    parser.add_argument('--encoder_path', type=str, default='encoder-12-1170.ckpt', help='path for trained encoder')
    
     parser.add_argument('--vocab_path1', type=str, default='json/train_up_vocab.pkl', help='path for vocabulary wrapper')
     parser.add_argument('--vocab_path2', type=str, default='clothing_vocab_accessory2.pkl', help='path for vocabulary wrapper')
