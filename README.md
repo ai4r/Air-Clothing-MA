@@ -15,7 +15,7 @@ This is a part of ETRI AIR project. The AIR-Clothing-MA is a kind of mutli-attri
 1.   Download yolo-v3 model from [here](https://drive.google.com/file/d/1yCz6pc6qHJD2Zcz8ldDmJ3NzE8wjaiT6/view?usp=sharing) and put in 'Air-Clothing-MA root directory'.  
 2.   Downoad Clothing-MA model from [here](https://drive.google.com/file/d/1k3lvA96ZstbV4a_QtYTuohY79xg_nJYe/view?usp=sharing) and put in 'Air-Clothing-MA root directory'.
 3.   Run 'file_demo.py' to run each image file demostration
-or 4.   Run 'cam_demo.py' to run web-cam demostration
+4.   Run 'cam_demo.py' to run web-cam demostration
 
 ## LICENSE
 This software is a part of AIR, and follows the [AIR License and Service Agreement](LICENSE.md).
