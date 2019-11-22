@@ -19,3 +19,6 @@ This is a part of ETRI AIR project. The AIR-Clothing-MA(Multi Attributes) is a k
 
 ## LICENSE
 This software is a part of AIR, and follows the [AIR License and Service Agreement](LICENSE.md).
+
+## Acknowledgement
+* This work was supported by the ICT R&D program of MSIP/IITP. [2017-0-00162, Development of Human-care Robot Technology for Aging Society]   
