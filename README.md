@@ -1,5 +1,5 @@
 # AIR-Clothing-MA
-This is a part of ETRI AIR project. The AIR-Clothing-MA is a kind of mutli-attributes classifier for clothings and their multi attributes.
+This is a part of ETRI AIR project. The AIR-Clothing-MA(Multi Attributes) is a kind of mutli-attributes classifier for clothings and their multi attributes.
 
 ## Dependencies
 -   python = 3.6.1     
