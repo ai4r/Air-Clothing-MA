@@ -2,22 +2,25 @@
 This is a part of ETRI AIR project. The AIR-Clothing-MA(Multi Attributes) is a kind of mutli-attributes classifier for clothings and their multi attributes.
 
 ## Dependencies
--   python >= 3.6     
+-   python >= 3.6 
 -   pytorch >= 1.2
 
 -   RoiAlign 
     1. Download and install RoiAlign module for pytorch from [here](https://github.com/longcw/RoIAlign.pytorch)
 
 ## Installation
-1. cuda 10.2 toolkit download & install
+Recommend this procedure!!  (from ubuntu 18.04)
+1. download & install cuda 10.2 toolkit 
  - [here](https://developer.nvidia.com/cuda-10.2-download-archive?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1804&target_type=debnetwork)
-2. anaconda python 3.7 version (Linux x86) download & install
+2. download & install anaconda python 3.7 version (Linux x86) 
  - [download](https://repo.anaconda.com/archive/Anaconda3-2020.02-Linux-x86_64.sh)
  - $ sh Anaconda3-2020.02-Linux-x86_64.sh
-3. pytorch install
+3. install pytorch
  - (base)$ conda install pytorch torchvision cudatoolkit=10.2 -c pytorch
-4. opencv install
+4. install opencv
  - (base)$ pip install opencv-python
+5. install RoIAlign
+ - [RoIAlign](https://github.com/longcw/RoIAlign.pytorch)
  
 ## How to test the model
 
