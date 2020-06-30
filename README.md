@@ -11,7 +11,14 @@ This is a part of ETRI AIR project. The AIR-Clothing-MA(Multi Attributes) is a k
 ## Installation
 1. cuda 10.2 toolkit download & install
  - [here](https://developer.nvidia.com/cuda-10.2-download-archive?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1804&target_type=debnetwork)
-
+2. anaconda python 3.7 version (Linux x86) download & install
+ - [download](https://repo.anaconda.com/archive/Anaconda3-2020.02-Linux-x86_64.sh)
+ - $ sh Anaconda3-2020.02-Linux-x86_64.sh
+3. pytorch install
+ - (base)$ conda install pytorch torchvision cudatoolkit=10.2 -c pytorch
+4. opencv install
+ - (base)$ pip install opencv-python
+ 
 ## How to test the model
 
 1.   Download yolo-v3 model from [here](https://drive.google.com/file/d/1yCz6pc6qHJD2Zcz8ldDmJ3NzE8wjaiT6/view?usp=sharing) and put in 'Air-Clothing-MA root directory'.  
