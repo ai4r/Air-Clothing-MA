@@ -8,7 +8,9 @@ This is a part of ETRI AIR project. The AIR-Clothing-MA(Multi Attributes) is a k
 -   RoiAlign 
     1. Download and install RoiAlign module for pytorch from [here](https://github.com/longcw/RoIAlign.pytorch)
 
-
+## Installation
+1. cuda 10.2 toolkit download & install
+ - [here](https://developer.nvidia.com/cuda-10.2-download-archive?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1804&target_type=debnetwork)
 
 ## How to test the model
 
