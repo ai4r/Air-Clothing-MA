@@ -1,6 +1,5 @@
 #-*-coding:utf-8-*-
 import torch
-import nltk
 from collections import Counter
 import numpy as np 
 import argparse
