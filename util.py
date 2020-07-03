@@ -8,7 +8,7 @@ from torch.autograd import Variable
 import numpy as np
 import cv2 
 import random
-import matplotlib.pyplot as plt
+
 from bbox import bbox_iou, bbox_iou2
 import sys
 
