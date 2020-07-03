@@ -1,6 +1,5 @@
 #-*-coding:utf-8-*-
 import torch
-import matplotlib.pyplot as plt
 import matplotlib.mlab as mlab
 import nltk
 from collections import Counter
