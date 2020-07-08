@@ -7,7 +7,6 @@ import pickle
 import os
 import time
 from torchvision import transforms 
-from build_clothing_vocab import Vocabulary
 from model import EncoderClothing, DecoderClothing
 from darknet import Darknet
 from PIL import Image
