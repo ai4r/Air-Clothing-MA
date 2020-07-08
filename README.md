@@ -17,8 +17,8 @@ Recommend this procedure!!  (from ubuntu 18.04)
  - $ sh Anaconda3-2020.02-Linux-x86_64.sh
 3. install pytorch
  - (base)$ conda install pytorch torchvision cudatoolkit=10.2 -c pytorch
-4. install opencv
- - (base)$ pip install opencv-python
+4. install opencv, matplotlib
+ - (base)$ pip install opencv-python, matplotlib
 5. install RoIAlign
  - [RoIAlign](https://github.com/longcw/RoIAlign.pytorch)
  
