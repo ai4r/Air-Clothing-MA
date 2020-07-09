@@ -149,7 +149,7 @@ Recommend this procedure!!  (from ubuntu 18.04)
 
 <td class="c2" colspan="1" rowspan="1">
 
-<span class="c0">Top sex(2)</span>
+<span class="c0">Top gender(2)</span>
 
 </td>
 
@@ -185,7 +185,7 @@ Recommend this procedure!!  (from ubuntu 18.04)
 
 <td class="c2" colspan="1" rowspan="1">
 
-<span class="c0">Bottom sex(2)</span>
+<span class="c0">Bottom gender(2)</span>
 
 </td>
 
